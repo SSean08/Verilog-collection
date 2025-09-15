@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/sean/Electronics/verilog
 vfull_adder
-Z0 !s110 1757922333
+Z0 !s110 1757924145
 !i10b 1
 !s100 HocU5Aao>kNKDlZ_J^Oh41
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 d/home/sean/Electronics/verilog/ModelSim/FullAdder
 w1757921264
 8/home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder.v
 F/home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder.v
-!i122 13
+!i122 17
 L0 1 8
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1757922333.000000
+Z5 !s108 1757924145.000000
 !s107 /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder.v|
 !i113 1
@@ -35,16 +35,16 @@ Z7 tCvgOpt 0
 vfull_adder_tb
 R0
 !i10b 1
-!s100 dc6Jl2?6f;3fan?[Y0gUU2
+!s100 KY]24RDbllzHbfHWR;jze1
 R1
-IJI^gNLd6LnGIHDEdi1NDN3
+Ib1`0k11mEgOcQ[_f[7dli1
 R2
 R3
-w1757922331
+w1757924142
 8/home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v
 F/home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v
-!i122 14
-L0 1 15
+!i122 18
+L0 1 22
 R4
 r1
 !s85 0
