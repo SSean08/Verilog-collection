@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sean/Electronics/verilog/ModelSim/FullAdder
+vor_gate
+!s110 1757919610
+!i10b 1
+!s100 TXZ>eEWPR=RF8>3`?4eUk2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+Ic;l1<gjV@<@9DcXDSYGRk1
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/sean/Electronics/verilog/ModelSim/OR
+w1757919604
+8/home/sean/Electronics/verilog/ModelSim/OR/or_gate.v
+F/home/sean/Electronics/verilog/ModelSim/OR/or_gate.v
+!i122 0
+L0 1 6
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1757919610.000000
+!s107 /home/sean/Electronics/verilog/ModelSim/OR/or_gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sean/Electronics/verilog/ModelSim/OR/or_gate.v|
+!i113 1
+o-work work
+tCvgOpt 0

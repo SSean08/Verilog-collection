@@ -1,0 +1,232 @@
+# Loading project FullAdder
+# Compile of full_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:33:11 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:33:11 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 10
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:33:33 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:33:33 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vlog -work work /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:33:41 on Sep 15,2025
+# vlog -reportprogress 300 -work work /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v 
+# -- Compiling module full_adder_tb
+# 
+# Top level modules:
+# 	full_adder_tb
+# End time: 15:33:41 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:33:45 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:33:45 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 15:33:49 on Sep 15,2025
+# Loading work.full_adder
+quit -sim
+# End time: 15:34:08 on Sep 15,2025, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:34:09 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:34:09 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:34:10 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+vsim work.full_adder_tb
+# End time: 15:34:12 on Sep 15,2025, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+# vsim work.full_adder_tb 
+# Start time: 15:34:12 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:34:12 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 15:34:33 on Sep 15,2025
+# Loading work.full_adder
+add wave -position end  sim:/full_adder/A
+add wave -position end  sim:/full_adder/B
+add wave -position end  sim:/full_adder/Cin
+add wave -position end  sim:/full_adder/Sum
+add wave -position end  sim:/full_adder/Cout
+force -freeze sim:/full_adder/A 0 0
+force -freeze sim:/full_adder/B 0 0
+force -freeze sim:/full_adder/Cin 0 0
+run
+force -freeze sim:/full_adder/Cin 1 0
+run
+force -freeze sim:/full_adder/B 1 0
+run
+force -freeze sim:/full_adder/A 1 0
+run
+# Compile of full_adder_tb.v was successful.
+quit -sim
+# End time: 15:39:20 on Sep 15,2025, Elapsed time: 0:04:47
+# Errors: 0, Warnings: 2
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:39:22 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:39:22 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 15:39:27 on Sep 15,2025
+# Loading work.full_adder
+quit -sim
+# End time: 15:39:35 on Sep 15,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 1
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:39:44 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:39:44 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Load canceled
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:43:31 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:43:31 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:44:24 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:44:25 on Sep 15,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:44:26 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 6
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:44:26 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 15:45:35 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 7
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:45:35 on Sep 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 15:45:51 on Sep 15,2025
+# Loading work.full_adder
+vsim work.full_adder
+# End time: 15:45:53 on Sep 15,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# vsim work.full_adder 
+# Start time: 15:45:53 on Sep 15,2025
+# Loading work.full_adder
+vsim work.full_adder_tb
+# End time: 15:46:09 on Sep 15,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim work.full_adder_tb 
+# Start time: 15:46:09 on Sep 15,2025
+# Loading work.full_adder_tb
+# ** Error: (vsim-3033) Instantiation of 'FA' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /full_adder_tb File: /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v Line: 7
+#         Searched libraries:
+#             /home/sean/Electronics/verilog/ModelSim/FullAdder/work
+# Error loading design
+# End time: 15:46:10 on Sep 15,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1

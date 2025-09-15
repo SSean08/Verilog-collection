@@ -1,0 +1,18 @@
+# Loading project OR
+# reading /home/sean/bin/ModelSim/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project HalfAdder
+# Project file /home/sean/Electronics/verilog/ModelSim/HalfAdder/HalfAdder.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file /home/sean/Electronics/verilog/ModelSim/HalfAdder/HalfAdder.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file /home/sean/Electronics/verilog/ModelSim/HalfAdder/HalfAdder.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# reading /home/sean/bin/ModelSim/modelsim_ase/linuxaloem/../modelsim.ini
+cd /home/sean/Electronics/verilog/ModelSim/FullAdder
+vsim work.full_adder
+# vsim work.full_adder 
+# Start time: 15:16:07 on Sep 15,2025
+# Loading work.full_adder
+quit -sim
+# End time: 15:16:52 on Sep 15,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 7

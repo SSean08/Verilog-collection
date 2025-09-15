@@ -1,0 +1,15 @@
+/home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v {1 {vlog -work work -stats=none /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder_tb
+
+Top level modules:
+	full_adder_tb
+
+} {} {}} /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder.v {1 {vlog -work work -stats=none /home/sean/Electronics/verilog/ModelSim/FullAdder/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}
