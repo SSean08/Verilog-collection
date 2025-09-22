@@ -25,9 +25,9 @@ HELP = """
 
     Omitting project name will do the operation in the current directory where this python script is located
 
-    python script c ["project name"] = compile code
-    python script r ["project name"] = clean compiled code
-    python script n ["project name"] = create new project
+    python script.py c ["project name"] = compile code
+    python script.py r ["project name"] = clean compiled code
+    python script.py n ["project name"] = create new project
 """
 
 # GTK WAVE file format
