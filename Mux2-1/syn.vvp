@@ -1,0 +1,100 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x61808b387700 .scope module, "mux2_tb" "mux2_tb" 2 4;
+ .timescale -9 -9;
+v0x61808b39cec0_0 .var "A", 0 0;
+v0x61808b39cf80_0 .var "B", 0 0;
+v0x61808b39d050_0 .net "O", 0 0, L_0x61808b39d4e0;  1 drivers
+v0x61808b39d150_0 .var "S", 0 0;
+S_0x61808b387890 .scope module, "MUX2" "mux2" 2 9, 3 1 0, S_0x61808b387700;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "O";
+L_0x61808b39d220 .functor AND 1, v0x61808b39cec0_0, v0x61808b39d150_0, C4<1>, C4<1>;
+L_0x61808b39d360 .functor NOT 1, v0x61808b39d150_0, C4<0>, C4<0>, C4<0>;
+L_0x61808b39d3d0 .functor AND 1, v0x61808b39cf80_0, L_0x61808b39d360, C4<1>, C4<1>;
+L_0x61808b39d4e0 .functor OR 1, L_0x61808b39d220, L_0x61808b39d3d0, C4<0>, C4<0>;
+v0x61808b387ae0_0 .net "A", 0 0, v0x61808b39cec0_0;  1 drivers
+v0x61808b39c940_0 .net "B", 0 0, v0x61808b39cf80_0;  1 drivers
+v0x61808b39ca00_0 .net "O", 0 0, L_0x61808b39d4e0;  alias, 1 drivers
+v0x61808b39cad0_0 .net "S", 0 0, v0x61808b39d150_0;  1 drivers
+v0x61808b39cb90_0 .net *"_ivl_1", 0 0, L_0x61808b39d220;  1 drivers
+v0x61808b39cca0_0 .net *"_ivl_2", 0 0, L_0x61808b39d360;  1 drivers
+v0x61808b39cd80_0 .net *"_ivl_5", 0 0, L_0x61808b39d3d0;  1 drivers
+    .scope S_0x61808b387700;
+T_0 ;
+    %vpi_call 2 14 "$dumpfile", "wave.vcd" {0 0 0};
+    %vpi_call 2 15 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x61808b387700 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cec0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39cf80_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x61808b39d150_0, 0, 1;
+    %delay 10, 0;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "main.v";
+    "./mux2-1.v";
