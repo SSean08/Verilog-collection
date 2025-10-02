@@ -1,5 +1,17 @@
 # Verilog-collection
 Collection of verilog code gathered from experimentation and class
+# Installation instructions
+Link to iverilog: https://bleyer.org/icarus/
+
+**For Windows**
+
+1. Download the installer for your operating system
+2. Make sure to check add binaries to PATH.
+3. Check GTKWave to be installed
+
+**For Linux**
+
+- Make sure to install gtkwave and iverilog on your corresponding package manager
 
 **Dependencies**
 - iverilog
