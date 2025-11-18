@@ -7,7 +7,7 @@ module adder_subtractor_8bit_tb;
     wire [7:0] Sum;
     wire Cout;
 
-    adder_subtractor_8bit uut (
+    adder_subtractor_8bit adder_subtractor8 (
         .A(A),
         .B(B),
         .Op(Op),

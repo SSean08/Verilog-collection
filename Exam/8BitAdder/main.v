@@ -10,7 +10,7 @@ module adder8bit_tb;
 
 
     // Instantiate the full adder module
-    adder8bit uut (
+    adder8bit adder8 (
         .A(A),
         .B(B),
         .Cin(Cin),
