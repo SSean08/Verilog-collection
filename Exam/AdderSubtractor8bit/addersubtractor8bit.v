@@ -1,10 +1,10 @@
 `include "full_adder.v"
 
 module adder_subtractor_8bit (A, B, Op, Sum, Cout);
-    output [7:0] Sum;
-    output Cout;
-    input [7:0] A, B;
-    input Op; // 1 = Subtraction, 0 = Addition
+    output wire [7:0] Sum;
+    output wire Cout;
+    input wire [7:0] A, B;
+    input wire Op; // 1 = Subtraction, 0 = Addition
 
     wire [7:0] C; // Internal wires for carry
 
